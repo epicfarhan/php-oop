@@ -18,8 +18,16 @@ class Car {
     }
 
     public function getText(){
-        return "My fav car is the " . $this->company . " " . $this->model . "."; 
+        return "Current car is " .  $this->model . " from " . $this->company; 
     }
 
+// getter and setter
+    public function getBrand(){
+        return $this->company;
+    }
+     
+     public function changeBrand($change){
+        $this->company = $change;
+     }
 }
 
