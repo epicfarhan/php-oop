@@ -11,15 +11,13 @@
 <h1 style="text-align: center; padding-bottom: 20px;">
 <?php 
 
-/*
+
 require_once 'Class/Car.php';
 
 $current = new Car('Nissan', 'GT-R 35');
 //echo $current->getText();
 $current->changeBrand("Ferrari");
 echo $current->getBrand();
-
-*/
 
 
 

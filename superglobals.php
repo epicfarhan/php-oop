@@ -11,12 +11,12 @@
 <h1 class="header-superglo">Built-In Superglobal Variables</h1>
 <img src="sg.gif" alt="superglobal" class="super-image">
   <?php
-    //echo $_SERVER['DOCUMENT_ROOT'];
-    //echo $_SERVER['PHP_SELF']
-    //echo $_SERVER['SERVER_NAME'];
-    //echo $_SERVER['REQUEST_METHOD'];
-    //echo $_GET['name'];
-    //echo $_GET['age'];
+    echo $_SERVER['DOCUMENT_ROOT'];
+    echo $_SERVER['PHP_SELF'];
+    echo $_SERVER['SERVER_NAME'];
+    echo $_SERVER['REQUEST_METHOD'];
+    echo $_GET['name'];
+    echo $_GET['age'];
   ?>
 
 
